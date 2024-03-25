@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+        <div class="to-do-list">
+        <div class="to-list-part">
+        <p id="successMessage" style="display: none;color:green;font-weight:600;text-align: center;"></p>
+        <p id="deleteMessage" style="display: none;color:red;font-weight:600;text-align: center;"></p>
+        <div class="input-part">
+        <h2>Todo List</h2>
+        <input type="date" id="datePicker">
+        </div>
+        <div class="btn-part">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask('hello')">Add Task</button>
+        </div>
+        <div id="taskList">
+            <!-- <input type="date" class="get_date"> -->
+        </div>
+        <h4>Develope By Farzan Hasan</h4>
+        </div>
+        </div> 
+        </div>
+
+
+    
+
+<script src="script.js"></script> 
+</body>
+</html>
